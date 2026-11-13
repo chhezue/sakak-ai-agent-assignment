@@ -1,0 +1,37 @@
+name: Algorithm tests
+on:
+  push:
+    paths:
+      - "algorithm/**"
+      - ".github/workflows/algorithm.yml"
+  pull_request:
+    paths:
+      - "algorithm/**"
+      - ".github/workflows/algorithm.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node: ["20.19.4", "24"]
+    defaults:
+      run:
+        working-directory: algorithm
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: algorithm/package-lock.json
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - run: npm run format:check
+      - name: Benchmark solutions in separate processes
+        run: |
+          node dist/full-generation/benchmark.js
+          node dist/segment-length-dp/benchmark.js
