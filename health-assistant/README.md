@@ -51,4 +51,4 @@ curl http://127.0.0.1:3000/api/ask -H 'Content-Type: application/json' \
 
 `health-assistant`에서 `npm test`를 실행하면 실제 HTTP 경로, 참고표 처리, 모델 응답의 형식과 출처, 장애 시 반환하는 메시지를 검사합니다. 자동 테스트는 고정된 모델 응답을 사용합니다. 실제 Ollama를 사용하는 명령은 [평가 방법](evaluation/PROTOCOL.md)에 정리했습니다.
 
-[서버와 모델의 역할](docs/decisions.md) · [AI 활용 계획과 프롬프트](ai-usage.md)
+[설계 결정 기록(ADR)](docs/decisions.md) · [AI 활용 계획과 프롬프트](ai-usage.md)

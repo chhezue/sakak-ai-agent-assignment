@@ -23,7 +23,7 @@ flowchart LR
   API -->|"답변 표시"| UI
 ```
 
-검진 이력이 비어 있으면 그래프는 조회 단계에서 안내 문구를 정하고 종료합니다. [LangGraph 분기와 설계 이유](health-assistant/docs/decisions.md)
+검진 이력이 비어 있으면 그래프는 조회 단계에서 안내 문구를 정하고 종료합니다. [설계 결정 기록(ADR)과 LangGraph 분기](health-assistant/docs/decisions.md)
 
 ## 실행 방법
 
