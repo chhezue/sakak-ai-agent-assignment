@@ -1,0 +1,559 @@
+TAP version 13
+# Subtest: 혈당 문장의 측정값 -95 mg/dL
+not ok 1 - 혈당 문장의 측정값 -95 mg/dL
+  ---
+  duration_ms: 9.164042
+  location: 'test/sign-date.test.cjs:20:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   true,
+    +   true,
+    +   true
+    -   false,
+    -   false,
+    -   false
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: false
+    1: false
+    2: false
+  actual:
+    0: true
+    1: true
+    2: true
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:26:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    node:internal/test_runner/harness:255:12
+    node:internal/process/task_queues:140:7
+    AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+  ...
+# Subtest: 혈당 문장의 측정값 −95 mg/dL
+not ok 2 - 혈당 문장의 측정값 −95 mg/dL
+  ---
+  duration_ms: 0.58
+  location: 'test/sign-date.test.cjs:20:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   true,
+    +   true,
+    +   true
+    -   false,
+    -   false,
+    -   false
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: false
+    1: false
+    2: false
+  actual:
+    0: true
+    1: true
+    2: true
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:26:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 혈당 문장의 측정값 95 mg/dL
+ok 3 - 혈당 문장의 측정값 95 mg/dL
+  ---
+  duration_ms: 0.117708
+  ...
+# Subtest: 골밀도 문장의 측정값 T-score 0.8
+ok 4 - 골밀도 문장의 측정값 T-score 0.8
+  ---
+  duration_ms: 0.152917
+  ...
+# Subtest: 골밀도 문장의 측정값 T-score −0.8
+not ok 5 - 골밀도 문장의 측정값 T-score −0.8
+  ---
+  duration_ms: 0.380083
+  location: 'test/sign-date.test.cjs:20:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   false,
+    +   false,
+    +   false
+    -   true,
+    -   true,
+    -   true
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: true
+    1: true
+    2: true
+  actual:
+    0: false
+    1: false
+    2: false
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:26:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 혈압 문장의 측정값 -125/82 mmHg
+not ok 6 - 혈압 문장의 측정값 -125/82 mmHg
+  ---
+  duration_ms: 0.182917
+  location: 'test/sign-date.test.cjs:20:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   true,
+    +   true,
+    +   true
+    -   false,
+    -   false,
+    -   false
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: false
+    1: false
+    2: false
+  actual:
+    0: true
+    1: true
+    2: true
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:26:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 혈압 문장의 측정값 125/-82 mmHg
+ok 7 - 혈압 문장의 측정값 125/-82 mmHg
+  ---
+  duration_ms: 0.152166
+  ...
+# Subtest: 혈압 문장의 측정값 125/82 mmHg
+ok 8 - 혈압 문장의 측정값 125/82 mmHg
+  ---
+  duration_ms: 0.085083
+  ...
+# Subtest: BMI 문장의 측정값 23.5 kg/m2
+ok 9 - BMI 문장의 측정값 23.5 kg/m2
+  ---
+  duration_ms: 0.375667
+  ...
+# Subtest: 2024년 7월 2일 혈당은?
+not ok 10 - 2024년 7월 2일 혈당은?
+  ---
+  duration_ms: 0.50325
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+        'ready',
+        [
+    +     '2025-08-15'
+    -     '2024-07-02'
+        ]
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'ready'
+    1:
+      0: '2024-07-02'
+  actual:
+    0: 'ready'
+    1:
+      0: '2025-08-15'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2024-07-02와 최근 혈당 비교해줘
+not ok 11 - 2024-07-02와 최근 혈당 비교해줘
+  ---
+  duration_ms: 0.151
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+        'ready',
+        [
+    -     '2025-08-15',
+          '2024-07-02'
+        ]
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'ready'
+    1:
+      0: '2025-08-15'
+      1: '2024-07-02'
+  actual:
+    0: 'ready'
+    1:
+      0: '2024-07-02'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2024년 7월 2일 건강검진 결과는 어때요?
+not ok 12 - 2024년 7월 2일 건강검진 결과는 어때요?
+  ---
+  duration_ms: 0.146291
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'unsupported',
+    +   []
+    -   'ready',
+    -   [
+    -     '2024-07-02'
+    -   ]
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'ready'
+    1:
+      0: '2024-07-02'
+  actual:
+    0: 'unsupported'
+    1:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2025-08-15와 최근 혈당 비교해줘
+not ok 13 - 2025-08-15와 최근 혈당 비교해줘
+  ---
+  duration_ms: 0.122542
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2025-08-15'
+    +   ]
+    -   'no-record',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'no-record'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2025-08-15'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2024-07-02 혈당 비교해줘
+not ok 14 - 2024-07-02 혈당 비교해줘
+  ---
+  duration_ms: 0.136959
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2024-07-02'
+    +   ]
+    -   'unsupported',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'unsupported'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2024-07-02'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2024-07-02 및 2023년 2월 28일 혈당 비교
+not ok 15 - 2024-07-02 및 2023년 2월 28일 혈당 비교
+  ---
+  duration_ms: 0.153166
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2024-07-02'
+    +   ]
+    -   'no-record',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'no-record'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2024-07-02'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2023년 혈당은?
+not ok 16 - 2023년 혈당은?
+  ---
+  duration_ms: 0.226375
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2025-08-15'
+    +   ]
+    -   'unsupported',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'unsupported'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2025-08-15'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 작년 혈당은?
+not ok 17 - 작년 혈당은?
+  ---
+  duration_ms: 0.169917
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2025-08-15'
+    +   ]
+    -   'unsupported',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'unsupported'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2025-08-15'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2024-07-02와 작년 혈당 비교
+not ok 18 - 2024-07-02와 작년 혈당 비교
+  ---
+  duration_ms: 0.062541
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2024-07-02'
+    +   ]
+    -   'unsupported',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'unsupported'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2024-07-02'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: 2024년 2월 30일 혈당은?
+not ok 19 - 2024년 2월 30일 혈당은?
+  ---
+  duration_ms: 0.114875
+  location: 'test/sign-date.test.cjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'ready',
+    +   [
+    +     '2025-08-15'
+    +   ]
+    -   'no-record',
+    -   []
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'no-record'
+    1:
+  actual:
+    0: 'ready'
+    1:
+      0: '2025-08-15'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (test/sign-date.test.cjs:47:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 5
+# fail 14
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 93.051458

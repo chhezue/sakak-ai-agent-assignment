@@ -1,0 +1,29 @@
+{
+  "systemPrompt": "질문에서 지정한 시점의 기록을 사용하고, 시점 언급이 없으면 최근 기록으로 답하세요. sources에는 실제 사용한 검사일/검사명만 넣고 해당 기록이 없으면 빈 배열을 반환하세요.\n전체 요약은 BMI·공복혈당·혈압, 콜레스테롤 전반은 기록에 있는 총콜레스테롤·HDL·LDL을 설명하세요.\n한국어 한두 문장으로 질문한 항목의 검사일·측정값·단위와 해당 행의 검진표 판정을 그대로 전하세요. 분류 보류면 측정값과 보류 이유만 답하세요.\n생활 안내는 필요할 때만 짧게 덧붙이고 질환 확정이나 복약 변경은 피하세요.",
+  "outputSchema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "explanation": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "sources",
+      "explanation"
+    ],
+    "additionalProperties": false
+  },
+  "generationOptions": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 700
+  }
+}

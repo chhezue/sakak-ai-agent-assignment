@@ -1,0 +1,122 @@
+{
+  "qwen2.5:7b": {
+    "dispositions": {
+      "accepted": 10,
+      "rejected": 3,
+      "no-match": 1,
+      "not-called": 0,
+      "no-output": 0
+    },
+    "draftRates": {
+      "accepted": {
+        "allRequests": 0.7142857142857143,
+        "modelCalls": 0.7142857142857143,
+        "decidedDrafts": 0.7692307692307693
+      },
+      "rejected": {
+        "allRequests": 0.21428571428571427,
+        "modelCalls": 0.21428571428571427,
+        "decidedDrafts": 0.23076923076923078
+      }
+    },
+    "draft": {
+      "selection": {
+        "passed": 10,
+        "evaluated": 14
+      },
+      "facts": {
+        "passed": 8,
+        "evaluated": 14
+      },
+      "length": {
+        "passed": 12,
+        "evaluated": 14
+      }
+    },
+    "final": {
+      "selection": {
+        "passed": 10,
+        "evaluated": 14
+      },
+      "facts": {
+        "passed": 7,
+        "evaluated": 14
+      },
+      "length": {
+        "passed": 12,
+        "evaluated": 14
+      }
+    },
+    "requests": 14,
+    "modelRequests": 14,
+    "correctSelections": 10,
+    "deliveredCorrect": 1,
+    "generated": 10,
+    "fallback": 0,
+    "unavailable": 0,
+    "modelRouteLatencyMs": {
+      "p50": 5994,
+      "p95": 17364
+    }
+  },
+  "llama3.1:8b": {
+    "dispositions": {
+      "accepted": 11,
+      "rejected": 2,
+      "no-match": 1,
+      "not-called": 0,
+      "no-output": 0
+    },
+    "draftRates": {
+      "accepted": {
+        "allRequests": 0.7857142857142857,
+        "modelCalls": 0.7857142857142857,
+        "decidedDrafts": 0.8461538461538461
+      },
+      "rejected": {
+        "allRequests": 0.14285714285714285,
+        "modelCalls": 0.14285714285714285,
+        "decidedDrafts": 0.15384615384615385
+      }
+    },
+    "draft": {
+      "selection": {
+        "passed": 10,
+        "evaluated": 14
+      },
+      "facts": {
+        "passed": 7,
+        "evaluated": 14
+      },
+      "length": {
+        "passed": 11,
+        "evaluated": 14
+      }
+    },
+    "final": {
+      "selection": {
+        "passed": 10,
+        "evaluated": 14
+      },
+      "facts": {
+        "passed": 7,
+        "evaluated": 14
+      },
+      "length": {
+        "passed": 12,
+        "evaluated": 14
+      }
+    },
+    "requests": 14,
+    "modelRequests": 14,
+    "correctSelections": 10,
+    "deliveredCorrect": 1,
+    "generated": 11,
+    "fallback": 0,
+    "unavailable": 0,
+    "modelRouteLatencyMs": {
+      "p50": 3413,
+      "p95": 12663
+    }
+  }
+}

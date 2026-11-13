@@ -1,0 +1,44 @@
+{
+  "qwen2.5:7b": {
+    "dispositions": {
+      "accepted": 18,
+      "rejected": 0,
+      "no-match": 1,
+      "not-called": 2,
+      "no-output": 0
+    },
+    "draftRates": {
+      "accepted": {
+        "allRequests": 0.8571428571428571,
+        "modelCalls": 0.9473684210526315,
+        "decidedDrafts": 1
+      },
+      "rejected": {
+        "allRequests": 0,
+        "modelCalls": 0,
+        "decidedDrafts": 0
+      }
+    },
+    "draft": {
+      "selection": {
+        "passed": 18,
+        "evaluated": 19
+      }
+    },
+    "final": {
+      "selection": {
+        "passed": 18,
+        "evaluated": 19
+      }
+    },
+    "requests": 21,
+    "modelRequests": 19,
+    "correctSelections": 18,
+    "generated": 18,
+    "unavailable": 0,
+    "modelRouteLatencyMs": {
+      "p50": 5953,
+      "p95": 15842
+    }
+  }
+}

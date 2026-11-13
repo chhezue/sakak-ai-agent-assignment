@@ -1,0 +1,52 @@
+{
+  "qwen2.5:7b": {
+    "requests": 34,
+    "modelRequests": 24,
+    "deterministicControls": 10,
+    "firstPassCorrect": 14,
+    "firstAttemptDimensions": {
+      "evidenceIds": 24,
+      "valuesAndUnits": 22,
+      "bands": 24,
+      "textGrounding": 16
+    },
+    "generated": 20,
+    "fallback": 4,
+    "unavailable": 0,
+    "finalCorrect": 24,
+    "controlsCorrect": 10,
+    "modelRouteLatencyMs": {
+      "p50": 10688,
+      "p95": 26958
+    },
+    "holdoutFirstPass": 2,
+    "holdoutModelRequests": 8,
+    "freshFirstPass": 4,
+    "freshModelRequests": 6
+  },
+  "llama3.1:8b": {
+    "requests": 34,
+    "modelRequests": 24,
+    "deterministicControls": 10,
+    "firstPassCorrect": 20,
+    "firstAttemptDimensions": {
+      "evidenceIds": 20,
+      "valuesAndUnits": 20,
+      "bands": 20,
+      "textGrounding": 20
+    },
+    "generated": 20,
+    "fallback": 4,
+    "unavailable": 0,
+    "finalCorrect": 24,
+    "controlsCorrect": 10,
+    "modelRouteLatencyMs": {
+      "p50": 6376,
+      "p95": 11853
+    },
+    "holdoutFirstPass": 6,
+    "holdoutModelRequests": 8,
+    "freshFirstPass": 6,
+    "freshModelRequests": 6
+  }
+}

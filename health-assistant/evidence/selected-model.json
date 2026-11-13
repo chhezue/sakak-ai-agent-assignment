@@ -1,0 +1,23 @@
+{
+  "model": "llama3.1:8b",
+  "selectionOrder": "delivery correctness, first generation, retries/fallback, then latency",
+  "humanReviewStatus": "collected 2026-11-12; one reviewer, 12 first-output pairs",
+  "basedOn": "../evaluation/results/final/summary.json",
+  "postEvaluationChange": "2026-11-11에 src/app.ts 기본 태그 한 줄을 qwen2.5:7b에서 llama3.1:8b로 선택했다. 당시 비교 실행은 후보 태그를 명시적으로 주입했고 다른 비교 대상 소스 해시는 같았다. 이후 수치 인용 검사 변경은 reading-regrade.json에 별도로 기록했다.",
+  "sourceDelta": {
+    "src/app.ts": {
+      "comparison": "0e6a129fc06bbf5961477dbc955b9a92e16aa16de455dc51e31e896f56cf489d",
+      "selectedBuild": "4a3f0750ecc4d289022585f302bc3f23233c7129d63889cd7f3f304988228788"
+    }
+  },
+  "humanReview": "../evaluation/results/final/human-review.md",
+  "humanReviewSelectionCounts": {
+    "qwen2.5:7b": 6,
+    "llama3.1:8b": 1,
+    "tie": 4,
+    "neither": 1
+  },
+  "selectionRationaleAfterHumanReview": "사용자 선택은 Qwen 6, Llama 1, 동률 4, 둘 다 부적합 1이다. 현재 기본값은 첫 생성의 사실 검사와 지연을 우선해 Llama로 두며, Qwen의 서술형 선호와 선택된 답변 두 개의 분류 오류를 함께 기록한다.",
+  "userSelectionStatement": "나는 답변의 말투나 친근성 등에 대해서는 Qwen 모델을 더 높게 평가했지만(정성 평가), 정량 평가에서는 Llama가 더 높게 나왔기 때문에 후자를 선택했다",
+  "outputFormatExperiment": "../evaluation/OUTPUT-REDUCTION.md"
+}

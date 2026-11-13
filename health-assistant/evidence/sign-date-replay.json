@@ -1,0 +1,22 @@
+{
+  "llama3.1_8b.jsonl": {
+    "sha256": "da29f857ba72fbb506aaeaf1fdc8dd6a7253108ec57a7e61893784aa0f4a98ef",
+    "requests": 34,
+    "modelRequests": 24,
+    "recordedAttempts": 28,
+    "firstPass": 20,
+    "delivered": 34,
+    "fallbacks": 4,
+    "changes": []
+  },
+  "qwen2.5_7b.jsonl": {
+    "sha256": "1de53b0e4041370fb863f86921b99002d66edb4fd246fca726e3510b5f71ffcb",
+    "requests": 34,
+    "modelRequests": 24,
+    "recordedAttempts": 34,
+    "firstPass": 14,
+    "delivered": 34,
+    "fallbacks": 4,
+    "changes": []
+  }
+}

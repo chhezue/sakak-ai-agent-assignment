@@ -1,0 +1,340 @@
+{
+  "restoredFileCount": 52,
+  "method": "Original copies matched against the pre-cleanup SHA-256 inventory; historical Markdown reports have a status notice and corrected unavailable-evidence links. No model runs or results were recreated.",
+  "files": [
+    {
+      "path": "evaluation/results/output-reduction/comparison.json",
+      "originalSha256": "9f52d3765b6cc49a9a25b2c42bb6ad0466c69dcb77b1cdcac422d780a3082a33",
+      "restoredSha256": "9f52d3765b6cc49a9a25b2c42bb6ad0466c69dcb77b1cdcac422d780a3082a33",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/comparison.json",
+      "originalSha256": "a0f37dd13f2b8b2bc7feb3ef31e58d646974d83c42f24627b9027d5d74dbbfdc",
+      "restoredSha256": "a0f37dd13f2b8b2bc7feb3ef31e58d646974d83c42f24627b9027d5d74dbbfdc",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/ablation-short-example/prompt-protocol.json",
+      "originalSha256": "c2fdf27b8dbd9db27d45d3097e3fff90e5ee7e48e0328a926b3e4889b0f77dbc",
+      "restoredSha256": "c2fdf27b8dbd9db27d45d3097e3fff90e5ee7e48e0328a926b3e4889b0f77dbc",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/ablation-short-example/manifest.json",
+      "originalSha256": "6c5434503ed9ae31c6d4a646098aa1a627176ea87af327c40ef5aaf3a06a8e93",
+      "restoredSha256": "6c5434503ed9ae31c6d4a646098aa1a627176ea87af327c40ef5aaf3a06a8e93",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/ablation-short-example/stop-note.json",
+      "originalSha256": "30a19939bca2e19a008718c233d70acbd6ec9a3bd98292f721630248c9750df8",
+      "restoredSha256": "30a19939bca2e19a008718c233d70acbd6ec9a3bd98292f721630248c9750df8",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/ablation-short-example/qwen2.5_7b.jsonl",
+      "originalSha256": "060f48adc465ec74f9eadaea11dcd7813f0a7c1c0aa6b32ff5a4d75373cd82bf",
+      "restoredSha256": "060f48adc465ec74f9eadaea11dcd7813f0a7c1c0aa6b32ff5a4d75373cd82bf",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/summary.json",
+      "originalSha256": "916ab8cf237ab635290e001af60589a97fd639b919f39d179c436a23e86a4355",
+      "restoredSha256": "916ab8cf237ab635290e001af60589a97fd639b919f39d179c436a23e86a4355",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/prompt-protocol.json",
+      "originalSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "restoredSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/reading-regrade.json",
+      "originalSha256": "b5d2203804b0e23f1752badc8597e0f4a3fb3001a1706eb1392f6f7488dbe175",
+      "restoredSha256": "b5d2203804b0e23f1752badc8597e0f4a3fb3001a1706eb1392f6f7488dbe175",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/manifest.json",
+      "originalSha256": "d6f955933d98280cf9cba7f016691ccb3d9685369f6b9184c8f310762332c5fa",
+      "restoredSha256": "d6f955933d98280cf9cba7f016691ccb3d9685369f6b9184c8f310762332c5fa",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/review-key.json",
+      "originalSha256": "8beea3a1951b0c78c303a59ceafc0d015a8d6c654e080d9a44df13036bca3cd8",
+      "restoredSha256": "8beea3a1951b0c78c303a59ceafc0d015a8d6c654e080d9a44df13036bca3cd8",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/latency-breakdown.json",
+      "originalSha256": "9a9fb3d4e3a11594deac065fccbf823fec1d035631f5b4119f6a25b8516e6644",
+      "restoredSha256": "9a9fb3d4e3a11594deac065fccbf823fec1d035631f5b4119f6a25b8516e6644",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/qwen2.5_7b.jsonl",
+      "originalSha256": "1de53b0e4041370fb863f86921b99002d66edb4fd246fca726e3510b5f71ffcb",
+      "restoredSha256": "1de53b0e4041370fb863f86921b99002d66edb4fd246fca726e3510b5f71ffcb",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/case-results.md",
+      "originalSha256": "5787163168c076d71d536103e7f7bdef590d2e64c1d0ff8e9d1257943b754403",
+      "restoredSha256": "a23d1758eed3a2c1bf383e3f5b8c0133443c35afcdf4c518bcf285fc95adc4bd",
+      "documentationNoteAdded": true,
+      "currentDocumentationSha256": "e05c63c9e6563a4f0fa011ee29c4bf02f24219778b51b0f05a18ddd84c5799a1",
+      "documentationEditedForReview": true
+    },
+    {
+      "path": "evaluation/results/final/llama3.1_8b.jsonl",
+      "originalSha256": "da29f857ba72fbb506aaeaf1fdc8dd6a7253108ec57a7e61893784aa0f4a98ef",
+      "restoredSha256": "da29f857ba72fbb506aaeaf1fdc8dd6a7253108ec57a7e61893784aa0f4a98ef",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/final/human-review.md",
+      "originalSha256": "9ea9c5029b06d1978e7fff3dcf79f68f4d4d07f3988a0943ed9c32bdccac483c",
+      "restoredSha256": "005b1218b6eec617a1815788a0d58b679183b3ee66b1f7312d0bf51a8ccc39b3",
+      "documentationNoteAdded": true,
+      "currentDocumentationSha256": "c4a306c8a4f1bebe1350119d66ba0cc65d3b626eeab857b75e033933fa620c48",
+      "documentationEditedForReview": true
+    },
+    {
+      "path": "evaluation/results/final/human-review.json",
+      "originalSha256": "64f51c428716b1ca0d5ff52c209b6812c71d95d5102dca812f24b545496e7d34",
+      "restoredSha256": "64f51c428716b1ca0d5ff52c209b6812c71d95d5102dca812f24b545496e7d34",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/before/summary.json",
+      "originalSha256": "4480df015bff7a3d09c55ce5ce7368a3398c97b7697928d82aecd913515f5d31",
+      "restoredSha256": "4480df015bff7a3d09c55ce5ce7368a3398c97b7697928d82aecd913515f5d31",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/before/prompt-protocol.json",
+      "originalSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "restoredSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/before/graph.ts",
+      "originalSha256": "15d511c9ac8708445bac8df23a1f65e08cf83b691cc4ac4a24a83aec3558f99b",
+      "restoredSha256": "15d511c9ac8708445bac8df23a1f65e08cf83b691cc4ac4a24a83aec3558f99b",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/before/manifest.json",
+      "originalSha256": "249f3a246a1135a3f4f2f08f53fe8371e7c79caecd41c48610bc8a1069b3a67c",
+      "restoredSha256": "249f3a246a1135a3f4f2f08f53fe8371e7c79caecd41c48610bc8a1069b3a67c",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/before/llama3.1_8b.jsonl",
+      "originalSha256": "ff6d2b5f9bbf6306e6a3e0874cfbad52b9d9f73c3c793f832385da8994278e16",
+      "restoredSha256": "ff6d2b5f9bbf6306e6a3e0874cfbad52b9d9f73c3c793f832385da8994278e16",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/after/summary.json",
+      "originalSha256": "23988fceeff347246156a6c3679b8ee3b7b5afea8382553bef2ca7f79941e21a",
+      "restoredSha256": "23988fceeff347246156a6c3679b8ee3b7b5afea8382553bef2ca7f79941e21a",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/after/prompt-protocol.json",
+      "originalSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "restoredSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/after/graph.ts",
+      "originalSha256": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+      "restoredSha256": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/after/manifest.json",
+      "originalSha256": "542c047db1128296a0683e0bbe118e1c6b28e82defa506c31eba1e934ab0f647",
+      "restoredSha256": "542c047db1128296a0683e0bbe118e1c6b28e82defa506c31eba1e934ab0f647",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/retry-reduction/after/llama3.1_8b.jsonl",
+      "originalSha256": "8532523c6518c50a62b370d1ef095f8ad569d0264f2e0b287d1a83222c6d9edf",
+      "restoredSha256": "8532523c6518c50a62b370d1ef095f8ad569d0264f2e0b287d1a83222c6d9edf",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/summary.json",
+      "originalSha256": "63647a97a6379381550df6a51105de0e59abf2a1e6cc75e3c6b123433333de79",
+      "restoredSha256": "63647a97a6379381550df6a51105de0e59abf2a1e6cc75e3c6b123433333de79",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/prompt-protocol.json",
+      "originalSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "restoredSha256": "8f0c9f07ca3e8507f0b98068a332377f391a3972ef62fcc61d993b4e908b7f0b",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/manifest.json",
+      "originalSha256": "26c7d9c78d75b903c4fa73a0414dd50825b24e6dd0edc0438725224bfede0e80",
+      "restoredSha256": "26c7d9c78d75b903c4fa73a0414dd50825b24e6dd0edc0438725224bfede0e80",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/llama3.1_8b.jsonl",
+      "originalSha256": "fdc0aae5299c058df0cb7ba5370178d5ff90c01d2d3b95d9aac7df3b01163b8a",
+      "restoredSha256": "fdc0aae5299c058df0cb7ba5370178d5ff90c01d2d3b95d9aac7df3b01163b8a",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/summary.json",
+      "originalSha256": "7a3e734a1ca28b8add8f7448488afc75935297bf12671a7a0048a5863333c83c",
+      "restoredSha256": "7a3e734a1ca28b8add8f7448488afc75935297bf12671a7a0048a5863333c83c",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/prompt-protocol.json",
+      "originalSha256": "4b20fc82c9dba9802a1fd25dd95cfc7400639f5180158bc87a98ebc2ab7daee9",
+      "restoredSha256": "4b20fc82c9dba9802a1fd25dd95cfc7400639f5180158bc87a98ebc2ab7daee9",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/manifest.json",
+      "originalSha256": "bb0849af701e0f888b971a5470666ed17d8fbea080d58dd07fdf4101c2236b97",
+      "restoredSha256": "bb0849af701e0f888b971a5470666ed17d8fbea080d58dd07fdf4101c2236b97",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/llama3.1_8b.jsonl",
+      "originalSha256": "e04d79e30225fa9c0cefa267d1a8b6d5ee2bb8f1c97e167cb3cc832f58f83230",
+      "restoredSha256": "e04d79e30225fa9c0cefa267d1a8b6d5ee2bb8f1c97e167cb3cc832f58f83230",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/source/evaluation/run.cjs",
+      "originalSha256": "093854a44b51005c9d08d46908998328d2f9917ef34545e76df271812e113ad6",
+      "restoredSha256": "093854a44b51005c9d08d46908998328d2f9917ef34545e76df271812e113ad6",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/source/evaluation/score.cjs",
+      "originalSha256": "a5345292b0ff371ecde8d6cfb80a4fdef2754c431c0d95925cb9302f7396f9a5",
+      "restoredSha256": "a5345292b0ff371ecde8d6cfb80a4fdef2754c431c0d95925cb9302f7396f9a5",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/source/src/assistant/model.ts",
+      "originalSha256": "f70d767a5c56ce0ef1bae4599b6ef20a855c4fc1f4286b47642a00bd552a5c4a",
+      "restoredSha256": "f70d767a5c56ce0ef1bae4599b6ef20a855c4fc1f4286b47642a00bd552a5c4a",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/after/source/src/assistant/graph.ts",
+      "originalSha256": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+      "restoredSha256": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/source/evaluation/run.cjs",
+      "originalSha256": "093854a44b51005c9d08d46908998328d2f9917ef34545e76df271812e113ad6",
+      "restoredSha256": "093854a44b51005c9d08d46908998328d2f9917ef34545e76df271812e113ad6",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/source/evaluation/score.cjs",
+      "originalSha256": "a5345292b0ff371ecde8d6cfb80a4fdef2754c431c0d95925cb9302f7396f9a5",
+      "restoredSha256": "a5345292b0ff371ecde8d6cfb80a4fdef2754c431c0d95925cb9302f7396f9a5",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/source/src/assistant/model.ts",
+      "originalSha256": "57a1a5b43bdb4f451a480a557a7e7077845591c638651fdc72eb02eecacc5e4f",
+      "restoredSha256": "57a1a5b43bdb4f451a480a557a7e7077845591c638651fdc72eb02eecacc5e4f",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/results/output-reduction/before/source/src/assistant/graph.ts",
+      "originalSha256": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+      "restoredSha256": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evaluation/RETRY-REDUCTION.md",
+      "originalSha256": "be6faf008be1cc0584fc916034de8984ab55136d5085ed3480d601899c77a388",
+      "restoredSha256": "6e23a1dcf75f2c5912e3ef4055f9bd35ec6c3fa2806d81a448be60d2176fbd1d",
+      "documentationNoteAdded": true,
+      "currentDocumentationSha256": "3690ec69af6caf6ccc769057a333e4477c733f8305ebc1f849675b48b9f5a5a1",
+      "documentationEditedForReview": true
+    },
+    {
+      "path": "evaluation/OUTPUT-REDUCTION.md",
+      "originalSha256": "dd85f9e129877ef3d05c13d73a48c09ac4a38f29d53e4f34c349bb314a7ab706",
+      "restoredSha256": "2f0c3e9d9d5b45d703609cd98e3eab2c30c7b7beeb28da4d3feddef6c79206e1",
+      "documentationNoteAdded": true,
+      "currentDocumentationSha256": "bbbde6b8527147f7a799a0d9a75a049902523f4c894f2ee1effab79b51428bb5",
+      "documentationEditedForReview": true
+    },
+    {
+      "path": "evaluation/RECORD-SELECTION.md",
+      "originalSha256": "643d604ae874747691cbb7e5a8fc63ab5ec7569db77991f99faa788004724a66",
+      "restoredSha256": "73fdb522e98e22a30b4b6c17a4a1d1817d30f986f26b49674bbf1548d2263022",
+      "documentationNoteAdded": true,
+      "currentDocumentationSha256": "40147877b3cdab827d869675587e13dc270ae42a9d5aaebded2b58f0d7e41cf5",
+      "documentationEditedForReview": true
+    },
+    {
+      "path": "evidence/grade-regression-red.tap",
+      "originalSha256": "dd3d1a1d0d9dbaba2aad6e2607057e9633311c90b8c8b6b14c4c9e7a775b5f97",
+      "restoredSha256": "dd3d1a1d0d9dbaba2aad6e2607057e9633311c90b8c8b6b14c4c9e7a775b5f97",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evidence/sign-date-red.tap",
+      "originalSha256": "bf06803c560fc6ace99d2213339288a9c035d3e333eff98a7ee8a1765d815f44",
+      "restoredSha256": "bf06803c560fc6ace99d2213339288a9c035d3e333eff98a7ee8a1765d815f44",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evidence/sign-date-green.tap",
+      "originalSha256": "4ab80dd5811f15974845db9e40bb4568ef2281c04ed0c2b756d265abf07f3f25",
+      "restoredSha256": "4ab80dd5811f15974845db9e40bb4568ef2281c04ed0c2b756d265abf07f3f25",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evidence/sign-date-replay.json",
+      "originalSha256": "d08b7ed3cfb031cb032c5c8a336172bbaff038f70b7f02e23128cb886853f15f",
+      "restoredSha256": "d08b7ed3cfb031cb032c5c8a336172bbaff038f70b7f02e23128cb886853f15f",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evidence/sign-date-live.json",
+      "originalSha256": "f5767f3d6c5b7f80e3ac318422a95007c0c47c4e30fb4d45658491caa69e01f6",
+      "restoredSha256": "f5767f3d6c5b7f80e3ac318422a95007c0c47c4e30fb4d45658491caa69e01f6",
+      "documentationNoteAdded": false
+    },
+    {
+      "path": "evidence/selected-model.json",
+      "originalSha256": "9ffbf50de5c0a64b8483c4f083d51b82d06422b11f73c1990ea9661557af93f8",
+      "restoredSha256": "9ffbf50de5c0a64b8483c4f083d51b82d06422b11f73c1990ea9661557af93f8",
+      "documentationNoteAdded": false
+    }
+  ],
+  "unrecoveredImportantOriginals": [
+    "evidence/record-selection.json",
+    "evidence/retry-policy-red.tap",
+    "evidence/compact-output-red.tap",
+    "evaluation/results/indirect-questions/",
+    "evaluation/results/qwen-sources-control/ (raw run)",
+    "evaluation/results/qwen-sources-example/ (raw run)",
+    "evaluation/results/qwen-verdict/ (raw run)",
+    "evaluation/results/qwen-verdict-sources/ (raw run)",
+    "evaluation/results/record-selection/ (summary, manifest and raw run)"
+  ],
+  "documentationRevision": "Reviewer-oriented explanations based on the Toss technical writing guide. Original and restored hashes remain unchanged; currentDocumentationSha256 identifies edited Markdown. Raw evidence and archived source files are unchanged."
+}

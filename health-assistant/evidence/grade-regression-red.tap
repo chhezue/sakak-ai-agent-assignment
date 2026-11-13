@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: 표에 없는 질환의심(A)나 등급 부정은 구조화 band가 맞아도 탈락한다
+not ok 1 - 표에 없는 질환의심(A)나 등급 부정은 구조화 band가 맞아도 탈락한다
+  ---
+  duration_ms: 2.886166
+  location: './test/grade-claims.test.cjs:8:1'
+  failureType: 'testCodeFailure'
+  error: '공복혈당 126 mg/dL로, 이번 검진표의 질환의심(A)에 해당합니다.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: 0
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (./test/grade-claims.test.cjs:16:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    node:internal/test_runner/harness:255:12
+    node:internal/process/task_queues:140:7
+    AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 96.572875

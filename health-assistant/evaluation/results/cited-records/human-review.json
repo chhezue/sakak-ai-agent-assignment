@@ -1,0 +1,100 @@
+{
+  "datasetId": "98ab8a394abe29a2f3e9ae1372b2e8fcbb8313a3ea6735774387adbcd9e89fd9",
+  "run": "cited-records",
+  "scope": "displayed-answer",
+  "exportedAt": "2026-11-12T14:44:02.121Z",
+  "completed": 14,
+  "total": 14,
+  "choices": {
+    "A": "A가 더 적합",
+    "B": "B가 더 적합",
+    "tie": "동률",
+    "neither": "둘 다 부적합"
+  },
+  "reviews": [
+    {
+      "id": "recent-glucose",
+      "question": "최근 공복혈당은 얼마였나요?",
+      "choice": "A",
+      "note": ""
+    },
+    {
+      "id": "lipid-pair",
+      "question": "총콜레스테롤과 HDL 수치를 각각 알려주세요.",
+      "choice": "A",
+      "note": ""
+    },
+    {
+      "id": "bp-conflict",
+      "question": "최근 혈압은 검진표에서 어느 범위였나요?",
+      "choice": "B",
+      "note": ""
+    },
+    {
+      "id": "glucose-boundary",
+      "question": "공복혈당과 검진표 분류가 궁금해요.",
+      "choice": "B",
+      "note": ""
+    },
+    {
+      "id": "old-record",
+      "question": "2024-07-02의 공복혈당 결과를 알려주세요.",
+      "choice": "B",
+      "note": ""
+    },
+    {
+      "id": "multiple-dates",
+      "question": "두 검진의 공복혈당을 비교해 주세요.",
+      "choice": "A",
+      "note": ""
+    },
+    {
+      "id": "mixed-reference",
+      "question": "HDL과 LDL 수치를 같이 설명해 주세요.",
+      "choice": "B",
+      "note": ""
+    },
+    {
+      "id": "bp-diastolic",
+      "question": "혈압 검사에서 어떤 결과가 나왔나요?",
+      "choice": "A",
+      "note": "답변의 품질 및 문체는 B가 더 마음에 들지만, '질환 의심'이라는 사실을 A가 짚었으므로 A 선택."
+    },
+    {
+      "id": "ldl-gap",
+      "question": "LDL 수치를 판정해 주세요.",
+      "choice": "B",
+      "note": ""
+    },
+    {
+      "id": "missing-sex",
+      "question": "혈색소 수치는 정상인가요?",
+      "choice": "tie",
+      "note": ""
+    },
+    {
+      "id": "unsupported",
+      "question": "비타민 D 검사 결과가 궁금합니다.",
+      "choice": "tie",
+      "note": ""
+    },
+    {
+      "id": "creatinine-decimal",
+      "question": "최근 크레아티닌 수치와 검진표 분류는?",
+      "choice": "B",
+      "note": "B가 더 적합하나, \"검진표 분류는 보류입니다\"는 잘못된 말인 것 같음."
+    },
+    {
+      "id": "liver-pair",
+      "question": "지난 검진의 AST와 ALT 수치를 각각 알려줘. 2025-08-15 기록으로.",
+      "choice": "A",
+      "note": ""
+    },
+    {
+      "id": "bone-negative",
+      "question": "골밀도 검사에서 T-score 수치는 어떻게 적혀 있나요?",
+      "choice": "B",
+      "note": ""
+    }
+  ]
+}

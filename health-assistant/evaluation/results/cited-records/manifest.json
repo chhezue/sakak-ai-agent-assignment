@@ -1,0 +1,68 @@
+{
+  "started": "2026-11-12T14:26:09.948Z",
+  "node": "v20.19.4",
+  "ollama": "0.40.6",
+  "hardware": {
+    "cpu": "Apple M4",
+    "arch": "arm64",
+    "memoryGiB": 16,
+    "system": "Darwin",
+    "release": "25.5.0"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 700
+  },
+  "repeats": 1,
+  "split": "all",
+  "caseIds": [
+    "recent-glucose",
+    "lipid-pair",
+    "bp-conflict",
+    "glucose-boundary",
+    "old-record",
+    "multiple-dates",
+    "mixed-reference",
+    "bp-diastolic",
+    "ldl-gap",
+    "missing-sex",
+    "unsupported",
+    "creatinine-decimal",
+    "liver-pair",
+    "bone-negative"
+  ],
+  "models": [
+    {
+      "tag": "qwen2.5:7b",
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "quantization": "Q4_K_M",
+      "size": "7.6B"
+    },
+    {
+      "tag": "llama3.1:8b",
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "quantization": "Q4_K_M",
+      "size": "8.0B"
+    }
+  ],
+  "goldenHash": "5b79331819a269c025ab1f1111aaa1ba1866c9cff7e5a1095a2f0eb26c5bde9b",
+  "diagnosticsHash": "9f57e37305b2521616d6661d487b12b66a523d2ab1a53df645612aa7a2a87a80",
+  "freshHash": "c47ac69bbdfdcdf478109594fbdd517c8dedd5b7fc58ab714609c82bff28a484",
+  "fixtureHash": "f5d42e111cc4adc4c38836c838a9555d4ea9ae36ec8287b77a6e7d7043186afc",
+  "promptHash": "bad626d48e88ce9e94c31ee5aadd4a82ea6f884343ade611a9acb2a7e2900bec",
+  "sourceHashes": {
+    "src/health/records.ts": "e0215915dedf77164cbfaf0f68598e76f3318e5c7c9c14a318f12fd5c952ceb1",
+    "src/health/evidence.ts": "5870688bd1769d256972bb911c7eb19030ccbff6f3ceaf3e1da7619a813cee9b",
+    "src/assistant/model.ts": "a1a0bee82884d41ddb49c21497429f9b37d74f70811f9a406bc83f52023d88b6",
+    "src/assistant/graph.ts": "251a8a7c806339c5a43f041068e7be3b5b5967ef08359cc2046f8644e25ba067",
+    "src/assistant/answer.ts": "164f43a1aef56dfb7733b3dee24ac32c83c9d0cbfe88e44f65abbe81f41e031a",
+    "src/app.ts": "60609dd71cc11dbdf83597e05b2111d73865fc7fb6286c1c15d2ed5bb56983d8",
+    "evaluation/score.cjs": "8671a75b285cb6e5a3ab7481f2b1c73a21544a4fbb037c34cd2ed20795d9ff91",
+    "evaluation/run.cjs": "7cf99e1db9a523815781cb3a2e83b67bb8d77187aa618be0d8b87e1ab891f0f9",
+    "package-lock.json": "c1e194febba95cb6adbb00a1469bb710ffc4864074ed9ad2555c4c80b53d61b2"
+  },
+  "order": "Sequential models. One excluded warm-up per model. Same case order in every round.",
+  "finished": "2026-11-12T14:29:22.449Z"
+}

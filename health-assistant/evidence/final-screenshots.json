@@ -1,0 +1,27 @@
+{
+  "capturedAt": "2026-11-12T16:07:43.594Z",
+  "timezone": "Asia/Seoul",
+  "url": "http://127.0.0.1:3105/",
+  "patientId": "demo-001",
+  "samples": [
+    {
+      "question": "최근 건강검진 결과는 어때요?",
+      "answer": "2025-08-15 검진에서 BMI 23.5 kg/m2와 공복혈당 95 mg/dL는 정상(A)입니다. 혈압 125/82 mmHg도 정상(B)입니다. 혈압은 약간 높은 편이니 염분 섭취를 줄여 보세요.",
+      "screenshot": "answer-summary.jpg",
+      "requestId": "c864f8c5-232a-469e-a4ad-d1db2b5ab9f7"
+    },
+    {
+      "question": "콜레스테롤 수치가 어때요?",
+      "answer": "2025-08-15 총콜레스테롤은 190 mg/dL, HDL은 60 mg/dL, LDL은 115 mg/dL로 모두 검진표의 정상(A)입니다. 현재 상태를 유지하시면 됩니다.",
+      "screenshot": "answer-cholesterol.jpg",
+      "requestId": "99e83948-86e9-4d9f-b18b-5a6ec7c3ffa6"
+    }
+  ],
+  "model": "qwen2.5:7b",
+  "sourceHashes": {
+    "src/assistant/model.ts": "474e9967351eeabde2b65ce32f4d9756d35e186c0f15c8e345564f76c1777a19",
+    "public/index.html": "8c105cfa526f9bf3cfc2be0813fc684e159107f30337f61d480aa18744a0caae",
+    "public/style.css": "eb72f827e073e047f19ab258722a0e5e6d02b661d609e169db4c4382038a80a8",
+    "public/app.js": "0683d1bce532813f05bc8f63e59f070fe581a47a9545b2d47882e51ad999b6ed"
+  }
+}

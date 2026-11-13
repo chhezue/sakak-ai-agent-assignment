@@ -1,0 +1,48 @@
+{
+  "scope": "Saved first outputs rechecked with current validator and scorer. No new inference, retry or latency measurement.",
+  "models": {
+    "qwen2.5:7b": {
+      "requests": 24,
+      "previousFirstPass": 14,
+      "regradedFirstPass": 16,
+      "changed": [
+        {
+          "id": "bone-negative",
+          "round": 1,
+          "previous": false,
+          "regraded": true,
+          "issues": [],
+          "dimensions": {
+            "evidenceIds": true,
+            "valuesAndUnits": true,
+            "bands": true,
+            "textGrounding": true
+          }
+        },
+        {
+          "id": "bone-negative",
+          "round": 2,
+          "previous": false,
+          "regraded": true,
+          "issues": [],
+          "dimensions": {
+            "evidenceIds": true,
+            "valuesAndUnits": true,
+            "bands": true,
+            "textGrounding": true
+          }
+        }
+      ]
+    },
+    "llama3.1:8b": {
+      "requests": 24,
+      "previousFirstPass": 20,
+      "regradedFirstPass": 20,
+      "changed": []
+    }
+  },
+  "sourceHashes": {
+    "src/assistant/model.ts": "4bc2a652091e8a8aa65af8c3810c077128ad407c0c17f21b51953e0b66f26ccb",
+    "evaluation/score.cjs": "2b546bd35b2729472dbfcc7bee88f26a297ff8cce4b2be3866bcca4ccde901a9"
+  }
+}

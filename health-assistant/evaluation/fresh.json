@@ -1,0 +1,57 @@
+[
+  {
+    "id": "creatinine-decimal",
+    "split": "fresh",
+    "patient": "demo-001",
+    "question": "최근 크레아티닌 수치와 검진표 분류는?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "serumCreatinine",
+        "1.2",
+        "mg/dL",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "liver-pair",
+    "split": "fresh",
+    "patient": "demo-001",
+    "question": "지난 검진의 AST와 ALT 수치를 각각 알려줘. 2025-08-15 기록으로.",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "AST",
+        "30",
+        "U/L",
+        "정상(A)"
+      ],
+      [
+        "2025-08-15",
+        "ALT",
+        "28",
+        "U/L",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "bone-negative",
+    "split": "fresh",
+    "patient": "demo-002",
+    "question": "골밀도 검사에서 T-score 수치는 어떻게 적혀 있나요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-09-03",
+        "osteoporosis",
+        "T-score -0.8",
+        "",
+        "정상(A)"
+      ]
+    ]
+  }
+]

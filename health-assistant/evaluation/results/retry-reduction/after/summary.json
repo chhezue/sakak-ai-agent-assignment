@@ -1,0 +1,27 @@
+{
+  "llama3.1:8b": {
+    "requests": 34,
+    "modelRequests": 24,
+    "deterministicControls": 10,
+    "firstPassCorrect": 20,
+    "firstAttemptDimensions": {
+      "evidenceIds": 20,
+      "valuesAndUnits": 20,
+      "bands": 20,
+      "textGrounding": 20
+    },
+    "generated": 20,
+    "fallback": 4,
+    "unavailable": 0,
+    "finalCorrect": 24,
+    "controlsCorrect": 10,
+    "modelRouteLatencyMs": {
+      "p50": 5230,
+      "p95": 9816
+    },
+    "holdoutFirstPass": 6,
+    "holdoutModelRequests": 8,
+    "freshFirstPass": 6,
+    "freshModelRequests": 6
+  }
+}

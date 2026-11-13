@@ -1,0 +1,186 @@
+[
+  {
+    "question": "2024년 7월 2일 혈당은?",
+    "response": {
+      "requestId": "933c7b17-c279-46a1-9485-f860fd6ea622",
+      "model": "llama3.1:8b",
+      "status": "generated",
+      "answer": "2024-07-02 검진\n공복혈당 105 mg/dL이며, 이번 검진표의 분류는 정상(B)입니다.",
+      "evidence": [
+        {
+          "id": "2024-07-02/fastingBloodGlucose",
+          "date": "2024-07-02",
+          "key": "fastingBloodGlucose",
+          "label": "공복혈당",
+          "value": "105",
+          "unit": "mg/dL",
+          "band": "정상(B)",
+          "reference": "100-125",
+          "reason": "matched",
+          "organization": "가상 이전 검진기관"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "requestId": "933c7b17-c279-46a1-9485-f860fd6ea622",
+        "stage": "lookup",
+        "outcome": "ok",
+        "durationMs": 5
+      },
+      {
+        "requestId": "933c7b17-c279-46a1-9485-f860fd6ea622",
+        "stage": "select",
+        "outcome": "model-route",
+        "durationMs": 1,
+        "count": 1
+      },
+      {
+        "requestId": "933c7b17-c279-46a1-9485-f860fd6ea622",
+        "stage": "generate",
+        "outcome": "received",
+        "durationMs": 24562,
+        "attempt": 1
+      },
+      {
+        "requestId": "933c7b17-c279-46a1-9485-f860fd6ea622",
+        "stage": "validate",
+        "outcome": "accepted",
+        "durationMs": 3,
+        "attempt": 1,
+        "issues": []
+      },
+      {
+        "requestId": "933c7b17-c279-46a1-9485-f860fd6ea622",
+        "stage": "complete",
+        "outcome": "generated",
+        "durationMs": 24589,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "question": "2024-07-02와 최근 혈당 비교해줘",
+    "response": {
+      "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+      "model": "llama3.1:8b",
+      "status": "verified-fallback",
+      "answer": "2025-08-15 검진\n공복혈당 95 mg/dL · 검진표 분류 정상(A)\n\n2024-07-02 검진\n공복혈당 105 mg/dL · 검진표 분류 정상(B)",
+      "evidence": [
+        {
+          "id": "2025-08-15/fastingBloodGlucose",
+          "date": "2025-08-15",
+          "key": "fastingBloodGlucose",
+          "label": "공복혈당",
+          "value": "95",
+          "unit": "mg/dL",
+          "band": "정상(A)",
+          "reference": "100미만",
+          "reason": "matched",
+          "organization": "서울병원"
+        },
+        {
+          "id": "2024-07-02/fastingBloodGlucose",
+          "date": "2024-07-02",
+          "key": "fastingBloodGlucose",
+          "label": "공복혈당",
+          "value": "105",
+          "unit": "mg/dL",
+          "band": "정상(B)",
+          "reference": "100-125",
+          "reason": "matched",
+          "organization": "가상 이전 검진기관"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "lookup",
+        "outcome": "ok",
+        "durationMs": 4
+      },
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "select",
+        "outcome": "model-route",
+        "durationMs": 1,
+        "count": 2
+      },
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "generate",
+        "outcome": "received",
+        "durationMs": 6824,
+        "attempt": 1
+      },
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "validate",
+        "outcome": "rejected",
+        "durationMs": 0,
+        "attempt": 1,
+        "issues": [
+          "unknown-or-duplicate-evidence",
+          "missing-evidence"
+        ]
+      },
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "generate",
+        "outcome": "received",
+        "durationMs": 4930,
+        "attempt": 2
+      },
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "validate",
+        "outcome": "rejected",
+        "durationMs": 0,
+        "attempt": 2,
+        "issues": [
+          "unknown-or-duplicate-evidence",
+          "missing-evidence"
+        ]
+      },
+      {
+        "requestId": "c7666504-803b-4034-b951-9c84cf9e362b",
+        "stage": "complete",
+        "outcome": "verified-fallback",
+        "durationMs": 11772,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "question": "작년 혈당은?",
+    "response": {
+      "requestId": "35ef9380-900a-4392-a248-7b5f3054820b",
+      "status": "unsupported",
+      "answer": "검사일을 연·월·일로 알려주세요. 비교하려면 두 검사일 또는 검사일과 최근 검진을 지정하세요.",
+      "evidence": []
+    },
+    "trace": [
+      {
+        "requestId": "35ef9380-900a-4392-a248-7b5f3054820b",
+        "stage": "lookup",
+        "outcome": "ok",
+        "durationMs": 1
+      },
+      {
+        "requestId": "35ef9380-900a-4392-a248-7b5f3054820b",
+        "stage": "select",
+        "outcome": "unsupported",
+        "durationMs": 0,
+        "count": 0
+      },
+      {
+        "requestId": "35ef9380-900a-4392-a248-7b5f3054820b",
+        "stage": "complete",
+        "outcome": "unsupported",
+        "durationMs": 4,
+        "count": 0
+      }
+    ]
+  }
+]

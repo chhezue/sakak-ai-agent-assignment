@@ -1,0 +1,50 @@
+{
+  "recent-glucose": [
+    "llama3.1:8b",
+    "qwen2.5:7b"
+  ],
+  "lipid-pair": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "bp-conflict": [
+    "llama3.1:8b",
+    "qwen2.5:7b"
+  ],
+  "glucose-boundary": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "recent-summary": [
+    "llama3.1:8b",
+    "qwen2.5:7b"
+  ],
+  "old-record": [
+    "llama3.1:8b",
+    "qwen2.5:7b"
+  ],
+  "multiple-dates": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "mixed-reference": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "bp-diastolic": [
+    "llama3.1:8b",
+    "qwen2.5:7b"
+  ],
+  "creatinine-decimal": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "liver-pair": [
+    "llama3.1:8b",
+    "qwen2.5:7b"
+  ],
+  "bone-negative": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ]
+}

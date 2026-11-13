@@ -1,0 +1,67 @@
+{
+  "scope": "Reconstruction from 2026-11-11 stored request traces. No new inference or latency experiment. Includes sequential retries, excludes deterministic controls and warm-ups.",
+  "durationDefinition": "generate trace measures the entire local Ollama HTTP call, including model work and transport. Outside-generation time includes app HTTP handling, lookup, selection, validation and graph overhead. Their medians are computed independently.",
+  "limitation": "Saved traces do not split model loading, prompt evaluation and output token generation.",
+  "models": {
+    "llama3.1:8b": {
+      "requests": 24,
+      "generationCalls": 28,
+      "retryRequests": 4,
+      "totalP50Ms": 6376,
+      "outsideGenerationP50Ms": 18,
+      "generationShareOfTotalMeasuredTime": 0.996066,
+      "stages": {
+        "lookup": {
+          "p50Ms": 2,
+          "sumMs": 61
+        },
+        "select": {
+          "p50Ms": 0,
+          "sumMs": 3
+        },
+        "validate": {
+          "p50Ms": 0,
+          "sumMs": 33
+        }
+      },
+      "singleCall": {
+        "requests": 20,
+        "p50TotalMs": 5953
+      },
+      "retried": {
+        "requests": 4,
+        "p50TotalMs": 10756
+      }
+    },
+    "qwen2.5:7b": {
+      "requests": 24,
+      "generationCalls": 34,
+      "retryRequests": 10,
+      "totalP50Ms": 10688,
+      "outsideGenerationP50Ms": 33,
+      "generationShareOfTotalMeasuredTime": 0.996177,
+      "stages": {
+        "lookup": {
+          "p50Ms": 2,
+          "sumMs": 75
+        },
+        "select": {
+          "p50Ms": 0,
+          "sumMs": 21
+        },
+        "validate": {
+          "p50Ms": 1,
+          "sumMs": 56
+        }
+      },
+      "singleCall": {
+        "requests": 14,
+        "p50TotalMs": 7601
+      },
+      "retried": {
+        "requests": 10,
+        "p50TotalMs": 16064
+      }
+    }
+  }
+}

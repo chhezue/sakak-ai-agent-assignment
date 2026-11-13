@@ -1,0 +1,49 @@
+{
+  "started": "2026-11-11T08:33:10.825Z",
+  "node": "v20.19.4",
+  "ollama": "0.40.6",
+  "hardware": {
+    "cpu": "Apple M4",
+    "arch": "arm64",
+    "memoryGiB": 16,
+    "system": "Darwin",
+    "release": "25.5.0"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 700
+  },
+  "repeats": 2,
+  "split": "all",
+  "models": [
+    {
+      "tag": "qwen2.5:7b",
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "quantization": "Q4_K_M",
+      "size": "7.6B"
+    },
+    {
+      "tag": "llama3.1:8b",
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "quantization": "Q4_K_M",
+      "size": "8.0B"
+    }
+  ],
+  "goldenHash": "72a948a19c9bf64a888edb57077b728d7d7202fa2883260271cc638c9fdb000b",
+  "freshHash": "c47ac69bbdfdcdf478109594fbdd517c8dedd5b7fc58ab714609c82bff28a484",
+  "fixtureHash": "f5d42e111cc4adc4c38836c838a9555d4ea9ae36ec8287b77a6e7d7043186afc",
+  "promptHash": "28a91597fd9f6b1cc1a6259cec43eb21683165d1433a8cb4ed6572a2a6a9725d",
+  "sourceHashes": {
+    "src/health/records.ts": "e0215915dedf77164cbfaf0f68598e76f3318e5c7c9c14a318f12fd5c952ceb1",
+    "src/health/evidence.ts": "97bf7a5c5661cd31deb0f0dca409f2cd368fb1ae83d1e2f6e2d516adbb181d8e",
+    "src/assistant/model.ts": "696709d64dacab389091b9fe00365ef743372cebe2b19b50e98dab9d86193380",
+    "src/assistant/graph.ts": "15d511c9ac8708445bac8df23a1f65e08cf83b691cc4ac4a24a83aec3558f99b",
+    "src/app.ts": "0e6a129fc06bbf5961477dbc955b9a92e16aa16de455dc51e31e896f56cf489d",
+    "evaluation/score.cjs": "1c109fdf8eac03e87362a9357560a6205ca0a3333923259e4c70d747a6bb1592",
+    "evaluation/run.cjs": "e241a2d6d6a2e174a906cb2dac4e31588cd36b20458074cdbd5f067342e3ef25",
+    "package-lock.json": "9e34c899009232384093af19b36638116186fc15464d60e9468058136cbd0113"
+  },
+  "order": "Sequential models. One excluded warm-up per model. Same case order in every round."
+}

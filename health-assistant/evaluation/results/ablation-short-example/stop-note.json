@@ -1,0 +1,5 @@
+{
+  "completed": false,
+  "rowsRetained": 14,
+  "reason": "개발 문항의 첫 출력에서 label/reading 누락 반복. 이 실행은 후보 비교의 최종 점수에서 제외한다."
+}

@@ -1,0 +1,61 @@
+{
+  "datasetId": "98ab8a394abe29a2f3e9ae1372b2e8fcbb8313a3ea6735774387adbcd9e89fd9",
+  "cases": {
+    "recent-glucose": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "lipid-pair": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "bp-conflict": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    },
+    "glucose-boundary": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    },
+    "old-record": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "multiple-dates": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "mixed-reference": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    },
+    "bp-diastolic": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    },
+    "ldl-gap": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    },
+    "missing-sex": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "unsupported": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    },
+    "creatinine-decimal": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "liver-pair": {
+      "A": "qwen2.5:7b",
+      "B": "llama3.1:8b"
+    },
+    "bone-negative": {
+      "A": "llama3.1:8b",
+      "B": "qwen2.5:7b"
+    }
+  }
+}

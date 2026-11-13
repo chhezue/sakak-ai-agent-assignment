@@ -1,0 +1,91 @@
+{
+  "datasetId": "2f05e56508e5dd60f91a52a6b139b468a3b8d92d802a1b6ede15e3019a5dd8b6",
+  "source": "evaluation/results/final",
+  "reviewedAt": "2026-11-12T06:44:04.210Z",
+  "answers": [
+    {
+      "id": "recent-glucose",
+      "choice": "B",
+      "reason": "'최근'의 검사일이 언제인지도 답변하면 좋을 것 같음.\nB를 선택한 이유는 서술형으로 작성되어 Q&A 봇의 취지와 맞음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "lipid-pair",
+      "choice": "tie",
+      "reason": "'최근'의 검사일이 언제인지도 답변하면 좋을 것 같음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "bp-conflict",
+      "choice": "B",
+      "reason": "'최근'의 검사일이 언제인지도 답변하면 좋을 것 같음.\nB를 선택한 이유는 서술형으로 작성되어 Q&A 봇의 취지와 맞음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "glucose-boundary",
+      "choice": "A",
+      "reason": "검사일도 추가되면 좋을 것 같음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "partial", "na"]
+    },
+    {
+      "id": "recent-summary",
+      "choice": "B",
+      "reason": "답변 A에서는 내용에서 빠진 부분이 있음.",
+      "ratingsA": ["insufficient", "partial", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "old-record",
+      "choice": "tie",
+      "reason": "해당 없음.",
+      "ratingsA": ["adequate", "adequate", "adequate"],
+      "ratingsB": ["adequate", "adequate", "adequate"]
+    },
+    {
+      "id": "multiple-dates",
+      "choice": "neither",
+      "reason": "질문에도 두 검진이 무엇인지 설명되어 있지 않고, 답변에서도 두 검진이 무엇인지 설명되어 있지 않음.",
+      "ratingsA": ["insufficient", "insufficient", "na"],
+      "ratingsB": ["insufficient", "insufficient", "na"]
+    },
+    {
+      "id": "mixed-reference",
+      "choice": "B",
+      "reason": "검사일도 추가되면 좋을 것 같음.",
+      "ratingsA": ["adequate", "adequate", "insufficient"],
+      "ratingsB": ["adequate", "adequate", "adequate"]
+    },
+    {
+      "id": "bp-diastolic",
+      "choice": "B",
+      "reason": "검사일도 추가되면 좋을 것 같음.",
+      "ratingsA": ["adequate", "partial", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "creatinine-decimal",
+      "choice": "tie",
+      "reason": "검사일도 추가되면 좋을 것 같음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "liver-pair",
+      "choice": "tie",
+      "reason": "해당 없음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "adequate", "na"]
+    },
+    {
+      "id": "bone-negative",
+      "choice": "A",
+      "reason": "검사일도 추가되면 좋을 것 같음.",
+      "ratingsA": ["adequate", "adequate", "na"],
+      "ratingsB": ["adequate", "partial", "na"]
+    }
+  ]
+}

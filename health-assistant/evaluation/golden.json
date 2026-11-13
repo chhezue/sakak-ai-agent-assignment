@@ -1,0 +1,191 @@
+[
+  {
+    "id": "recent-glucose",
+    "split": "development",
+    "patient": "demo-001",
+    "question": "최근 공복혈당은 얼마였나요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "fastingBloodGlucose",
+        "95",
+        "mg/dL",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "lipid-pair",
+    "split": "development",
+    "patient": "demo-001",
+    "question": "총콜레스테롤과 HDL 수치를 각각 알려주세요.",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "totalCholesterol",
+        "190",
+        "mg/dL",
+        "정상(A)"
+      ],
+      [
+        "2025-08-15",
+        "HDLCholesterol",
+        "60",
+        "mg/dL",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "bp-conflict",
+    "split": "development",
+    "patient": "demo-001",
+    "question": "최근 혈압은 검진표에서 어느 범위였나요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "bloodPressure",
+        "125/82",
+        "mmHg",
+        "정상(B)"
+      ]
+    ]
+  },
+  {
+    "id": "glucose-boundary",
+    "split": "development",
+    "patient": "demo-002",
+    "question": "공복혈당과 검진표 분류가 궁금해요.",
+    "route": "model",
+    "expected": [
+      [
+        "2025-09-03",
+        "fastingBloodGlucose",
+        "126",
+        "mg/dL",
+        "질환의심"
+      ]
+    ]
+  },
+  {
+    "id": "old-record",
+    "split": "holdout",
+    "patient": "demo-001",
+    "question": "2024-07-02의 공복혈당 결과를 알려주세요.",
+    "route": "model",
+    "expected": [
+      [
+        "2024-07-02",
+        "fastingBloodGlucose",
+        "105",
+        "mg/dL",
+        "정상(B)"
+      ]
+    ]
+  },
+  {
+    "id": "multiple-dates",
+    "split": "holdout",
+    "patient": "demo-001",
+    "question": "두 검진의 공복혈당을 비교해 주세요.",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "fastingBloodGlucose",
+        "95",
+        "mg/dL",
+        "정상(A)"
+      ],
+      [
+        "2024-07-02",
+        "fastingBloodGlucose",
+        "105",
+        "mg/dL",
+        "정상(B)"
+      ]
+    ]
+  },
+  {
+    "id": "mixed-reference",
+    "split": "holdout",
+    "patient": "demo-002",
+    "question": "HDL과 LDL 수치를 같이 설명해 주세요.",
+    "route": "model",
+    "expected": [
+      [
+        "2025-09-03",
+        "HDLCholesterol",
+        "39",
+        "mg/dL",
+        "질환의심"
+      ],
+      [
+        "2025-09-03",
+        "LDLCholesterol",
+        "150",
+        "mg/dL",
+        null
+      ]
+    ]
+  },
+  {
+    "id": "bp-diastolic",
+    "split": "holdout",
+    "patient": "demo-002",
+    "question": "혈압 검사에서 어떤 결과가 나왔나요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-09-03",
+        "bloodPressure",
+        "118/92",
+        "mmHg",
+        "질환의심"
+      ]
+    ]
+  },
+  {
+    "id": "ldl-gap",
+    "split": "development",
+    "patient": "demo-002",
+    "question": "LDL 수치를 판정해 주세요.",
+    "route": "reference-only",
+    "expected": [
+      [
+        "2025-09-03",
+        "LDLCholesterol",
+        "150",
+        "mg/dL",
+        null
+      ]
+    ]
+  },
+  {
+    "id": "missing-sex",
+    "split": "holdout",
+    "patient": "demo-002",
+    "question": "혈색소 수치는 정상인가요?",
+    "route": "reference-only",
+    "expected": [
+      [
+        "2025-09-03",
+        "hemoglobin",
+        "13.2",
+        "g/dL",
+        null
+      ]
+    ]
+  },
+  {
+    "id": "unsupported",
+    "split": "holdout",
+    "patient": "demo-001",
+    "question": "비타민 D 검사 결과가 궁금합니다.",
+    "route": "unsupported",
+    "expected": []
+  }
+]

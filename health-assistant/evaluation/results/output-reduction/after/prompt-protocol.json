@@ -1,0 +1,40 @@
+{
+  "systemPrompt": "당신은 합성 건강검진 기록을 한국어로 쉽게 설명합니다. 제공된 근거만 사용하세요.\n각 근거마다 id와 text 두 필드만 작성하세요. id는 fields.id를 그대로 사용하고, text에는 해당 근거를 설명하는 한국어 문장을 쓰세요. 모든 근거를 하나씩 포함하세요.\n각 fact에는 항목명, 측정값, 단위, 검진표 분류가 들어 있습니다. fact를 빠짐없이 반영해 text에 읽기 쉬운 한 문장을 쓰세요. 원문의 분류를 한 글자도 바꾸지 마세요.\n완성 문장의 예: \"중성지방 수치는 100 mg/dL이며, 이번 검진표의 분류는 정상(A)입니다.\" 예시의 이름·수치·등급은 복사하지 말고 해당 행의 fact를 사용하세요. 질환의심과 분류 보류에는 등급 문자를 붙이지 마세요.\n혈압 110/70처럼 슬래시가 있는 값은 한 측정값입니다. 값을 자르거나 단위를 바꾸지 마세요.\n날짜와 참고 기준은 화면에서 별도로 표시합니다. 문장에는 reading 이외의 숫자를 쓰지 마세요.\n질환의심은 검진표의 등급명입니다. 특정 질환명이나 증상, 원인, 처방을 보태지 마세요. 분류 보류 시 reason의 근거 부족을 설명하세요.",
+  "outputSchema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "statements": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "id",
+            "text"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "statements"
+    ],
+    "additionalProperties": false
+  },
+  "generationOptions": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 700
+  }
+}

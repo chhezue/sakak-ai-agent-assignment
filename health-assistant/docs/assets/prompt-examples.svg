@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="829" viewBox="0 0 960 829" role="img" aria-labelledby="title desc">
+<title id="title">JSON 예시 보완 전후의 관찰</title>
+<desc id="desc">Qwen · 조건별 API 21건 중 모델 호출 19건 · 같은 기존 질문을 1회씩 실행 출처: prompt-examples-2026-11-13의 summary.json 및 JSONL 문장 수 일부 답변은 짧아졌지만 전체 문장 수는 같고 판정 오류도 남았습니다. 출처 일치만으로 설명의 정확도를 판단할 수 없습니다. 속도는 조건별로 한 번 측정했습니다.</desc>
+<rect width="960" height="829" rx="14" fill="#f7f9fc"/>
+<style>text{font-family:"Apple SD Gothic Neo","Malgun Gothic",sans-serif;fill:#202c40}.title{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#53627a}.label{font-size:18px;font-weight:600}.value{font-size:18px;font-weight:700}.note{font-size:15px;fill:#53627a}</style>
+<text class="title" x="36" y="47">JSON 예시 보완 전후의 관찰</text>
+<text class="sub" x="36" y="78">Qwen · 조건별 API 21건 중 모델 호출 19건 · 같은 기존 질문을 1회씩 실행</text>
+<text class="label" x="36" y="116">기대 출처 집합과 정확히 일치</text>
+<text class="sub" x="904" y="116" text-anchor="end">건 / 모델 호출 19건</text>
+<text class="sub" x="36" y="152">변경 전</text>
+<rect x="226" y="132" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="132" width="390.53" height="27" rx="4" fill="#7892af"/>
+<text class="value" x="628.53" y="152">14</text>
+<text class="sub" x="36" y="187">변경 후</text>
+<rect x="226" y="167" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="167" width="502.11" height="27" rx="4" fill="#22816d"/>
+<text class="value" x="740.11" y="187">18</text>
+<text class="label" x="36" y="269">전체 답변의 문장 수 합계</text>
+<text class="sub" x="904" y="269" text-anchor="end">문장 / API 21건</text>
+<text class="sub" x="36" y="305">변경 전</text>
+<rect x="226" y="285" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="285" width="424.00" height="27" rx="4" fill="#7892af"/>
+<text class="value" x="662.00" y="305">40</text>
+<text class="sub" x="36" y="340">변경 후</text>
+<rect x="226" y="320" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="320" width="424.00" height="27" rx="4" fill="#22816d"/>
+<text class="value" x="662.00" y="340">40</text>
+<text class="label" x="36" y="422">모델 경로 API 지연 p50</text>
+<text class="sub" x="904" y="422" text-anchor="end">초</text>
+<text class="sub" x="36" y="458">변경 전</text>
+<rect x="226" y="438" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="438" width="209.23" height="27" rx="4" fill="#7892af"/>
+<text class="value" x="447.23" y="458">7.106</text>
+<text class="sub" x="36" y="493">변경 후</text>
+<rect x="226" y="473" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="473" width="175.28" height="27" rx="4" fill="#22816d"/>
+<text class="value" x="413.28" y="493">5.953</text>
+<text class="label" x="36" y="575">모델 경로 API 지연 p95</text>
+<text class="sub" x="904" y="575" text-anchor="end">초</text>
+<text class="sub" x="36" y="611">변경 전</text>
+<rect x="226" y="591" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="591" width="460.45" height="27" rx="4" fill="#7892af"/>
+<text class="value" x="698.45" y="611">15.638</text>
+<text class="sub" x="36" y="646">변경 후</text>
+<rect x="226" y="626" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="626" width="466.46" height="27" rx="4" fill="#22816d"/>
+<text class="value" x="704.46" y="646">15.842</text>
+<text class="note" x="36" y="732">출처: prompt-examples-2026-11-13의 summary.json 및 JSONL 문장 수</text>
+<text class="note" x="36" y="757">일부 답변은 짧아졌지만 전체 문장 수는 같고 판정 오류도 남았습니다.</text>
+<text class="note" x="36" y="782">출처 일치만으로 설명의 정확도를 판단할 수 없습니다. 속도는 조건별로 한 번 측정했습니다.</text>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "protectedFiles": {
+    "health-assistant/src/main.ts": true,
+    "health-assistant/src/app.ts": true,
+    "health-assistant/src/health/evidence.ts": true,
+    "health-assistant/src/health/sample.json": true,
+    "health-assistant/src/health/records.ts": true,
+    "health-assistant/src/assistant/graph.ts": true,
+    "health-assistant/public/index.html": true,
+    "health-assistant/public/style.css": true,
+    "health-assistant/public/app.js": true,
+    "health-assistant/package.json": true,
+    "health-assistant/package-lock.json": true,
+    "health-assistant/evaluation/golden.json": true,
+    "health-assistant/evaluation/fresh.json": true,
+    "health-assistant/evaluation/diagnostics.json": true,
+    "algorithm/README.md": true,
+    "algorithm/package-lock.json": true,
+    "algorithm/package.json": true,
+    "algorithm/tsconfig.json": true,
+    "algorithm/basic/README.md": true,
+    "algorithm/basic/solution.test.ts": true,
+    "algorithm/basic/solution.ts": true,
+    "algorithm/basic/benchmark.ts": true,
+    "algorithm/optimized/README.md": true,
+    "algorithm/optimized/solution.test.ts": true,
+    "algorithm/optimized/solution.ts": true,
+    "algorithm/optimized/benchmark.ts": true,
+    ".github/workflows/algorithm.yml": true
+  },
+  "allProtectedFilesUnchanged": true,
+  "changedMeasuredSources": [
+    "src/assistant/model.ts"
+  ],
+  "systemSchemaAndOptionsUnchanged": true,
+  "modelMetadataUnchanged": true,
+  "caseIdsAndOrderUnchanged": true,
+  "patientRecordsAndQuestionsUnchanged": true,
+  "requestsPerCondition": [
+    21,
+    21
+  ],
+  "modelCallsPerCondition": [
+    19,
+    19
+  ],
+  "beforeReplayMatches": 21,
+  "afterReplayMatches": 21,
+  "testsPassed": 14,
+  "formatCheck": "passed"
+}

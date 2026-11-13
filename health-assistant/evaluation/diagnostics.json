@@ -1,0 +1,118 @@
+[
+  {
+    "id": "assignment-cholesterol",
+    "split": "examples",
+    "patient": "demo-001",
+    "question": "콜레스테롤 수치가 어때요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "totalCholesterol",
+        "190",
+        "mg/dL",
+        "정상(A)"
+      ],
+      [
+        "2025-08-15",
+        "HDLCholesterol",
+        "60",
+        "mg/dL",
+        "정상(A)"
+      ],
+      [
+        "2025-08-15",
+        "LDLCholesterol",
+        "115",
+        "mg/dL",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "recent-summary",
+    "split": "examples",
+    "patient": "demo-001",
+    "question": "최근 건강검진 결과는 어때요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-08-15",
+        "BMI",
+        "23.5",
+        "kg/m2",
+        "정상(A)"
+      ],
+      [
+        "2025-08-15",
+        "bloodPressure",
+        "125/82",
+        "mmHg",
+        "정상(B)"
+      ],
+      [
+        "2025-08-15",
+        "fastingBloodGlucose",
+        "95",
+        "mg/dL",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "missing-exam",
+    "split": "api",
+    "patient": "demo-empty",
+    "question": "최근 혈압은 어떤가요?",
+    "route": "no-record",
+    "expected": []
+  },
+  {
+    "id": "missing-patient",
+    "split": "api",
+    "patient": "absent",
+    "question": "최근 공복혈당은?",
+    "route": "not-found",
+    "expected": []
+  },
+  {
+    "id": "indirect-cuff",
+    "split": "semantic",
+    "patient": "demo-002",
+    "question": "팔에 띠를 감아서 잰 위아래 두 숫자가 이번에 얼마였나요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-09-03",
+        "bloodPressure",
+        "118/92",
+        "mmHg",
+        "질환의심"
+      ]
+    ]
+  },
+  {
+    "id": "indirect-bone",
+    "split": "semantic",
+    "patient": "demo-002",
+    "question": "뼈가 얼마나 촘촘한지 보는 검사에서 제 점수가 얼마였나요?",
+    "route": "model",
+    "expected": [
+      [
+        "2025-09-03",
+        "osteoporosis",
+        "T-score -0.8",
+        "",
+        "정상(A)"
+      ]
+    ]
+  },
+  {
+    "id": "ambiguous-blood",
+    "split": "semantic",
+    "patient": "demo-002",
+    "question": "이번 검진에서 피 뽑아서 본 그 수치만 알려주세요.",
+    "route": "unsupported",
+    "expected": []
+  }
+]

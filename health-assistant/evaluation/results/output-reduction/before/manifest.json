@@ -1,0 +1,44 @@
+{
+  "started": "2026-11-12T08:00:48.563Z",
+  "node": "v20.19.4",
+  "ollama": "0.40.6",
+  "hardware": {
+    "cpu": "Apple M4",
+    "arch": "arm64",
+    "memoryGiB": 16,
+    "system": "Darwin",
+    "release": "25.5.0"
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 700
+  },
+  "repeats": 2,
+  "split": "all",
+  "models": [
+    {
+      "tag": "llama3.1:8b",
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "quantization": "Q4_K_M",
+      "size": "8.0B"
+    }
+  ],
+  "goldenHash": "72a948a19c9bf64a888edb57077b728d7d7202fa2883260271cc638c9fdb000b",
+  "freshHash": "c47ac69bbdfdcdf478109594fbdd517c8dedd5b7fc58ab714609c82bff28a484",
+  "fixtureHash": "f5d42e111cc4adc4c38836c838a9555d4ea9ae36ec8287b77a6e7d7043186afc",
+  "promptHash": "db30668a45c411f11484062363fb259c7bc5fa6a39e5ad9471be417c410f1337",
+  "sourceHashes": {
+    "src/health/records.ts": "e01cb068da7dda5180fa4bd61ac175e99eae51f384ee9e4ce291abe5623d99c8",
+    "src/health/evidence.ts": "97bf7a5c5661cd31deb0f0dca409f2cd368fb1ae83d1e2f6e2d516adbb181d8e",
+    "src/assistant/model.ts": "57a1a5b43bdb4f451a480a557a7e7077845591c638651fdc72eb02eecacc5e4f",
+    "src/assistant/graph.ts": "c61a0fee8563766e64ac69d69e4fe1ba335e69e5044c31b2a61d126a7f382346",
+    "src/app.ts": "4a3f0750ecc4d289022585f302bc3f23233c7129d63889cd7f3f304988228788",
+    "evaluation/score.cjs": "a5345292b0ff371ecde8d6cfb80a4fdef2754c431c0d95925cb9302f7396f9a5",
+    "evaluation/run.cjs": "093854a44b51005c9d08d46908998328d2f9917ef34545e76df271812e113ad6",
+    "package-lock.json": "9e34c899009232384093af19b36638116186fc15464d60e9468058136cbd0113"
+  },
+  "order": "Sequential models. One excluded warm-up per model. Same case order in every round.",
+  "finished": "2026-11-12T08:03:10.737Z"
+}

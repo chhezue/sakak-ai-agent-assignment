@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="345" viewBox="0 0 960 345" role="img" aria-labelledby="title desc">
+<title id="title">화면 답변 14쌍의 사용자 선택</title>
+<desc id="desc">모델 이름을 가린 비교 · 평가자 1명 · 모델별 같은 질문 14개, 1회 출처: evaluation/results/cited-records/human-review.json + review-key.json 이 비교로 Qwen을 선택했습니다. 선호 건수로 사실 정확도를 판단할 수는 없습니다.</desc>
+<rect width="960" height="345" rx="14" fill="#f7f9fc"/>
+<style>text{font-family:"Apple SD Gothic Neo","Malgun Gothic",sans-serif;fill:#202c40}.title{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#53627a}.label{font-size:18px;font-weight:600}.value{font-size:18px;font-weight:700}.note{font-size:15px;fill:#53627a}</style>
+<text class="title" x="36" y="47">화면 답변 14쌍의 사용자 선택</text>
+<text class="sub" x="36" y="78">모델 이름을 가린 비교 · 평가자 1명 · 모델별 같은 질문 14개, 1회</text>
+<text class="label" x="36" y="116">더 적합하다고 선택한 답변</text>
+<text class="sub" x="904" y="116" text-anchor="end">문항 수 / 14</text>
+<text class="sub" x="36" y="152">Qwen 2.5 7B</text>
+<rect x="226" y="132" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="132" width="340.71" height="27" rx="4" fill="#7892af"/>
+<text class="value" x="578.71" y="152">9건</text>
+<text class="sub" x="36" y="187">Llama 3.1 8B</text>
+<rect x="226" y="167" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="167" width="113.57" height="27" rx="4" fill="#22816d"/>
+<text class="value" x="351.57" y="187">3건</text>
+<text class="sub" x="36" y="222">동률</text>
+<rect x="226" y="202" width="530" height="27" rx="4" fill="#e6ecf4"/>
+<rect x="226" y="202" width="75.71" height="27" rx="4" fill="#9b85b9"/>
+<text class="value" x="313.71" y="222">2건</text>
+<text class="note" x="36" y="273">출처: evaluation/results/cited-records/human-review.json + review-key.json</text>
+<text class="note" x="36" y="298">이 비교로 Qwen을 선택했습니다. 선호 건수로 사실 정확도를 판단할 수는 없습니다.</text>
+</svg>

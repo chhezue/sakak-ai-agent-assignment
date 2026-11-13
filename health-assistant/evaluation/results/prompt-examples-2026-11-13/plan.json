@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "model": "qwen2.5:7b",
+  "repeats": 1,
+  "cases": "golden.json + fresh.json + diagnostics.json (21 existing questions, unchanged order)",
+  "change": "Complete JSON examples, two concise normal examples and one missing-sex example. System instructions and generation options unchanged.",
+  "preserved": "Runtime graph, request validation, JSON schema, source validation, reference-table processing and fixtures.",
+  "automatic": "Structured source-ID set comparison, disposition, sentence/character observations and latency only. No prose fact or style pass/fail.",
+  "reviewer": "Codex reading saved responses against questions and supplied records. Not a new user review or a runtime LLM-as-a-judge.",
+  "reviewCriteria": [
+    "Question date and required measurements",
+    "Value, unit and supplied reference-table judgment",
+    "Missing information and unsupported conclusions",
+    "Concision and clarity, recorded separately from factual correctness"
+  ],
+  "limits": "One sequential before/after run of known synthetic cases. No unseen-set claim or general accuracy estimate."
+}
