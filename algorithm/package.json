@@ -1,0 +1,28 @@
+{
+  "name": "sakak-look-and-say",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/full-generation/solution.test.js dist/segment-length-dp/solution.test.js",
+    "test:full-generation": "npm run build && node --test dist/full-generation/solution.test.js",
+    "test:segment-length-dp": "npm run build && node --test dist/segment-length-dp/solution.test.js",
+    "benchmark": "npm run build && node dist/full-generation/benchmark.js && node dist/segment-length-dp/benchmark.js",
+    "benchmark:full-generation": "npm run build && node dist/full-generation/benchmark.js",
+    "benchmark:segment-length-dp": "npm run build && node dist/segment-length-dp/benchmark.js",
+    "format:check": "prettier --check 'full-generation/*.{ts,md}' 'segment-length-dp/*.{ts,md}' '*.json' README.md"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "prettier": "3.9.10",
+    "typescript": "5.9.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 96
+  }
+}
