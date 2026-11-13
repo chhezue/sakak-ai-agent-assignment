@@ -1,0 +1,19 @@
+# 설치·빌드·테스트 중 생성하는 파일
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+
+# 로컬 평가 실행 결과 (제출용 비교 자료는 evaluation/results/에 보관합니다.)
+/health-assistant/evaluation/local-runs/
+
+# 검토용으로 내려받은 과제 안내문
+/gdoc_requirements.txt
+
+# 개인 환경 설정
+.env
+.env.*
+!.env.example
+.idea/
+.DS_Store
