@@ -1,0 +1,31 @@
+{
+  "name": "sakak-health-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prestart": "npm run build",
+    "start": "node dist/main.js",
+    "test": "npm run build && node --test test/*.test.cjs",
+    "evaluate": "npm run build && node evaluation/run.cjs",
+    "format:check": "prettier --check 'src/**/*.ts' 'test/*.cjs' 'evaluation/*.cjs' 'public/*'"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.0.0",
+    "@langchain/langgraph": "^1.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "prettier": "^3.9.10",
+    "typescript": "~5.9.3"
+  }
+}

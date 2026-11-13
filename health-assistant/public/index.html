@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>건강검진 상담</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>건강검진 상담</h1>
+      </header>
+      <section aria-label="검진 기록 질문">
+        <form id="ask">
+          <label for="patient">환자</label>
+          <select id="patient">
+            <option value="demo-001">홍길동</option>
+            <option value="demo-002">이서진</option>
+            <option value="demo-empty">검진 이력 없음</option>
+          </select>
+          <label for="question">질문</label>
+          <textarea id="question" required maxlength="350" rows="3">
+최근 건강검진 결과는 어때요?</textarea>
+          <button id="submit" type="submit">질문하기</button>
+        </form>
+      </section>
+      <section id="result" aria-live="polite" hidden>
+        <h2>답변</h2>
+        <p id="answer"></p>
+      </section>
+    </main>
+  </body>
+</html>
